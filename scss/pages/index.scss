@@ -24,7 +24,7 @@
             justify-content: center;
             align-items: center;
             background-image: url(../img/amnistiaindulto.png);
-            background-size: 100%;
+            background-size: 100% 100%;
             .sectionTitle1{
                 @extend %indexText;
                 width: 75%;
@@ -41,7 +41,7 @@
             justify-content: center;
             align-items: center;
             background-image: url(../img/divorcio.png);
-            background-size: 100%;
+            background-size: 100% 100%;
             .sectionTitle2{
                 @extend %indexText
             }

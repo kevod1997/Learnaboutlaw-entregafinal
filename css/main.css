@@ -8458,7 +8458,7 @@ footer div {
     justify-content: center;
     align-items: center;
     background-image: url(../img/amnistiaindulto.png);
-    background-size: 100%; }
+    background-size: 100% 100%; }
     .mainHome div .section1 .sectionTitle1 {
       width: 75%; }
   .mainHome div .section2 {
@@ -8471,6 +8471,6 @@ footer div {
     justify-content: center;
     align-items: center;
     background-image: url(../img/divorcio.png);
-    background-size: 100%; }
+    background-size: 100% 100%; }
   .mainHome div .section3 {
     display: none; }
