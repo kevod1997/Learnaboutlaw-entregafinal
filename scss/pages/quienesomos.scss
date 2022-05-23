@@ -1,0 +1,67 @@
+@import "utilities/variables";
+/* seccion quienes somos */
+.mainQuienes{
+    @extend %mainBack;
+    height: 175vh;
+    .sectionTitulo{
+        padding-top: 30px;
+        text-align: center;
+        text-transform: uppercase;
+        font-weight: normal;
+        color: black;
+        border-radius: 15px;
+        span{
+            background: rgb(232,232,232);
+            background: linear-gradient(90deg, rgba(232,232,232,1) 21%, rgba(149,149,149,1) 98%);
+            border-radius: 10px;
+        }
+    }
+    .sectionParrafo{
+        color: black;
+        font-size: 18px;
+        margin-top: 25px;
+        margin-left: 100px;
+        margin-right: 100px;
+        margin-bottom: 25px;
+        background: rgb(232,232,232);
+        background: linear-gradient(90deg, rgba(232,232,232,1) 21%, rgba(149,149,149,1) 98%);;
+    }
+}    
+@media only screen and (min-width:760px){
+   .mainQuienes{
+       height: 150vh;
+       .sectionTitulo{
+           font-weight: normal;
+       }
+   } 
+}
+@media only screen and (min-width:1024px){
+    .mainQuienes{
+        height: 105vh;
+        .contenedorMainQuienes{
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            .contenedorMainQuienes1{
+               margin-top: 50px;
+            }
+            .contenedorMainQuienes2{
+                margin-top: 100px;
+            }
+        }
+        .sectionTitulo{
+        margin-left: 100px;
+         display: flex;
+         text-align: flex-start;
+         text-transform: uppercase;
+         font-weight: normal;
+        }
+        .sectionParrafo{
+            font-size: 18px;
+            margin-top: 25px;
+            margin-left: 100px;
+            margin-right: 100px;
+            margin-bottom: 25px;
+        }
+    }
+   
+}

@@ -3,17 +3,17 @@
 /*footer*/
 
 footer{
+    height: 50vh;
     div{
         background-color: black;
-        height: 80vh;
         display: grid;
-        grid-template-columns: 1fr;
         grid-template-rows: 1fr 1fr;
+        grid-template-columns: 1fr;
         grid-template-areas: "sectionFooter1"
                              "sectionFooter2";
         .sectionFooter1{
             grid-area: sectionFooter1;
-            margin-top: 30px;
+            margin-top: 50px;
             img{
                 @include size(53%,50%);
                 margin-left: 25%;
@@ -28,10 +28,11 @@ footer{
         .sectionFooter2{
             grid-area: sectionFooter2; 
             display: flex;
-            justify-content: center;
+            justify-content: space-evenly;
             align-items: center;
+
             a{
-                height: 50%;
+                height: 35%;
                 img{
                     object-fit: cover;
                     width:100%;
@@ -39,23 +40,75 @@ footer{
                 }
                 .linkTwitter{
                     border-radius: 25px;
-                    margin-right: 10px;
-                }
-                .linkInstagram{
-                    margin-left: 10px;
+                    
                 }
             }
         }
-       .sectionFooter3{
-           display: grid;
-           justify-content: center;
-           align-items: center;
-           background-color: grey;
-           p{
-               color: white;
-           }
-        }  
-    }    
+    }   
+    .sectionFooter3{
+        display: flex;
+        justify-content: center;
+        background-color: grey;
+        p{
+            text-align: center;
+            color: white;
+        }
+     }      
 }
+
+@media only screen and (min-width: 760px){
+    footer{
+        div{
+            background-color: black;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: 1fr;
+            grid-template-areas: "sectionFooter1 sectionFooter2";
+            .sectionFooter1{
+                grid-area: sectionFooter1;
+                margin-top: 60px;
+                img{
+                    height: 40%;
+                }
+            }
+            .sectionFooter2{
+                grid-area: sectionFooter2; 
+                margin-top: 30px;
+                display: flex;
+                justify-content: space-evenly;
+                align-items: center;
+                a{
+                    height: 35%;
+                    .linkInstagram{
+                        margin-left: 0px;
+                        border-radius: 25px;
+                    }
+                }
+            }
+        }    
+    }
+}
+
+@media only screen and (min-width:1024px){
+    footer{
+        div{
+            .sectionFooter1{
+                margin-top: 150px;
+            }
+            .sectionFooter2{
+                a{
+                    height: 25%;
+                    .linkTwitter{
+                        border-radius: 25px;
+                    }
+                    .linkWhatsapp{
+                        border-radius: 25px;
+                    }
+                }
+            }
+        }    
+    }
+}
+
                         
 
