@@ -8342,3 +8342,135 @@ textarea.form-control-lg {
     display: inline-flex !important; }
   .d-print-none {
     display: none !important; } }
+
+header .headerLogo {
+  display: flex;
+  justify-content: center;
+  background: #e8e8e8;
+  background: linear-gradient(90deg, #e8e8e8 21%, #959595 98%);
+  height: 120px;
+  border-bottom: 1px solid black; }
+  header .headerLogo a img {
+    height: 100%; }
+
+header .navMenu {
+  background: #e8e8e8;
+  background: linear-gradient(90deg, #e8e8e8 21%, #959595 98%); }
+
+.mainHome {
+  background-image: url(../img/columnas.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 120vh; }
+
+.mainHome div .section1 .sectionTitle1, .mainHome div .section2 .sectionTitle2 {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px; }
+  .mainHome div .section1 .sectionTitle1:hover, .mainHome div .section2 .sectionTitle2:hover {
+    background-color: black;
+    transform: scale(1.1);
+    box-shadow: 2px 2px black;
+    transition: 1s; }
+
+/*footer*/
+footer div {
+  background-color: black;
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-areas: "sectionFooter1" "sectionFooter2" "sectionFooter3"; }
+  footer div .sectionFooter1 {
+    grid-area: sectionFooter1;
+    margin-top: 30px; }
+    footer div .sectionFooter1 img {
+      width: 53%;
+      height: 50%;
+      margin-left: 25%; }
+    footer div .sectionFooter1 p {
+      width: 53%;
+      margin-top: 10px;
+      margin-left: 25%;
+      color: white; }
+  footer div .sectionFooter2 {
+    grid-area: sectionFooter2;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    footer div .sectionFooter2 a {
+      height: 50%; }
+      footer div .sectionFooter2 a img {
+        object-fit: cover;
+        width: 100%;
+        height: 100%; }
+      footer div .sectionFooter2 a .linkTwitter {
+        border-radius: 25px;
+        margin-right: 10px; }
+      footer div .sectionFooter2 a .linkInstagram {
+        margin-left: 10px; }
+  footer div .sectionFooter3 {
+    grid-area: sectionFooter3;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    background-color: grey; }
+    footer div .sectionFooter3 p {
+      color: white; }
+
+.mainHome {
+  background-image: url(../img/columnas.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 120vh; }
+
+.mainHome div .section1 .sectionTitle1, .mainHome div .section2 .sectionTitle2 {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px; }
+  .mainHome div .section1 .sectionTitle1:hover, .mainHome div .section2 .sectionTitle2:hover {
+    background-color: black;
+    transform: scale(1.1);
+    box-shadow: 2px 2px black;
+    transition: 1s; }
+
+/* home*/
+/*mobile*/
+.mainHome div {
+  height: 100vh;
+  margin-left: 70px;
+  margin-right: 90px;
+  display: grid;
+  grid-template-columns: 1fr 0fr;
+  grid-template-rows: 1fr 1fr;
+  grid-template-areas: "section1 section3" "section2 section3"; }
+  .mainHome div .section1 {
+    grid-area: section1;
+    margin: 1.25rem;
+    margin-top: 3.125rem;
+    margin-bottom: 0px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../img/amnistiaindulto.png);
+    background-size: 100%; }
+    .mainHome div .section1 .sectionTitle1 {
+      width: 75%; }
+  .mainHome div .section2 {
+    grid-area: section2;
+    margin-top: 0px;
+    margin: 1.25rem;
+    margin-bottom: 3.125rem;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../img/divorcio.png);
+    background-size: 100%; }
+  .mainHome div .section3 {
+    display: none; }

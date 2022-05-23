@@ -1,0 +1,53 @@
+@import "utilities/variables";
+/* home*/
+
+/*mobile*/
+
+.mainHome{
+    @extend %mainBack;
+    div{
+         height: 100vh;
+         margin-left: 70px;
+         margin-right: 90px;
+         display: grid;
+         grid-template-columns: 1fr 0fr;
+         grid-template-rows: 1fr 1fr;
+         grid-template-areas: "section1 section3"
+                      "section2 section3";
+         .section1{
+            grid-area: section1;
+            margin: 1.25rem;
+            margin-top: 3.125rem;
+            margin-bottom: 0px;
+            border: 1px solid black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-image: url(../img/amnistiaindulto.png);
+            background-size: 100%;
+            .sectionTitle1{
+                @extend %indexText;
+                width: 75%;
+            }
+            
+                    }
+         .section2{
+            grid-area: section2;
+            margin-top: 0px;
+            margin: 1.25rem;
+            margin-bottom: 3.125rem;
+            border: 1px solid black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-image: url(../img/divorcio.png);
+            background-size: 100%;
+            .sectionTitle2{
+                @extend %indexText
+            }
+                    }
+         .section3{
+            display: none;
+                    }
+    }
+}

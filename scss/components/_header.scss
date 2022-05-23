@@ -1,0 +1,20 @@
+header{
+  .headerLogo{
+      display: flex;
+      justify-content: center;
+      background: rgb(232,232,232);
+      background: linear-gradient(90deg, rgba(232,232,232,1) 21%, rgba(149,149,149,1) 98%);
+      height: 120px; 
+      border-bottom: 1px solid black ;
+      a{
+        img{
+          height: 100%;
+        }
+      }
+  }
+  .navMenu{
+    background: rgb(232,232,232);
+    background: linear-gradient(90deg, rgba(232,232,232,1) 21%, rgba(149,149,149,1) 98%);
+  }
+}
+
