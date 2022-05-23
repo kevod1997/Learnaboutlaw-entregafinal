@@ -8378,11 +8378,11 @@ header .navMenu {
 /*footer*/
 footer div {
   background-color: black;
-  height: 75vh;
+  height: 80vh;
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: 1fr 1fr 1fr;
-  grid-template-areas: "sectionFooter1" "sectionFooter2" "sectionFooter3"; }
+  grid-template-rows: 1fr 1fr;
+  grid-template-areas: "sectionFooter1" "sectionFooter2"; }
   footer div .sectionFooter1 {
     grid-area: sectionFooter1;
     margin-top: 30px; }
@@ -8412,7 +8412,6 @@ footer div {
       footer div .sectionFooter2 a .linkInstagram {
         margin-left: 10px; }
   footer div .sectionFooter3 {
-    grid-area: sectionFooter3;
     display: grid;
     justify-content: center;
     align-items: center;
