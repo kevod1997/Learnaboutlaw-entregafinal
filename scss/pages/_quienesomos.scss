@@ -9,10 +9,12 @@
         text-transform: uppercase;
         font-weight: normal;
         color: black;
-        border-radius: 15px;
+        
         span{
             @extend %colorBack;
             border-radius: 10px;
+            border-bottom: 1px solid black;
+        
         }
     }
     .sectionParrafo{
@@ -24,6 +26,7 @@
         margin-bottom: 25px;
         @extend %colorBack;
         border-radius: 5px;
+        
     }
 }    
 @media only screen and (min-width:760px){

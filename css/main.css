@@ -8357,7 +8357,7 @@ header .headerLogo, header .navMenu, .mainQuienes .sectionTitulo span, .mainQuie
   color: white;
   text-decoration: none;
   font-weight: bold;
-  font-size: 13px; }
+  font-size: 14.5px; }
   .mainHome div .section1 .sectionTitle1:hover, .mainHome div .section2 .sectionTitle2:hover {
     background-color: black;
     transform: scale(1.1);
@@ -8386,7 +8386,7 @@ header .headerLogo, header .navMenu, .mainQuienes .sectionTitulo span, .mainQuie
   color: white;
   text-decoration: none;
   font-weight: bold;
-  font-size: 13px; }
+  font-size: 14.5px; }
   .mainHome div .section1 .sectionTitle1:hover, .mainHome div .section2 .sectionTitle2:hover {
     background-color: black;
     transform: scale(1.1);
@@ -8483,7 +8483,7 @@ header .headerLogo, header .navMenu, .mainQuienes .sectionTitulo span, .mainQuie
   color: white;
   text-decoration: none;
   font-weight: bold;
-  font-size: 13px; }
+  font-size: 14.5px; }
   .mainHome div .section1 .sectionTitle1:hover, .mainHome div .section2 .sectionTitle2:hover {
     background-color: black;
     transform: scale(1.1);
@@ -8591,7 +8591,7 @@ header .headerLogo, header .navMenu, .mainQuienes .sectionTitulo span, .mainQuie
   color: white;
   text-decoration: none;
   font-weight: bold;
-  font-size: 13px; }
+  font-size: 14.5px; }
   .mainHome div .section1 .sectionTitle1:hover, .mainHome div .section2 .sectionTitle2:hover {
     background-color: black;
     transform: scale(1.1);
@@ -8606,10 +8606,10 @@ header .headerLogo, header .navMenu, .mainQuienes .sectionTitulo span, .mainQuie
     text-align: center;
     text-transform: uppercase;
     font-weight: normal;
-    color: black;
-    border-radius: 15px; }
+    color: black; }
     .mainQuienes .sectionTitulo span {
-      border-radius: 10px; }
+      border-radius: 10px;
+      border-bottom: 1px solid black; }
   .mainQuienes .sectionParrafo {
     color: black;
     font-size: 18px;
@@ -8662,7 +8662,7 @@ header .headerLogo, header .navMenu, .mainQuienes .sectionTitulo span, .mainQuie
   color: white;
   text-decoration: none;
   font-weight: bold;
-  font-size: 13px; }
+  font-size: 14.5px; }
   .mainHome div .section1 .sectionTitle1:hover, .mainHome div .section2 .sectionTitle2:hover {
     background-color: black;
     transform: scale(1.1);
@@ -8785,7 +8785,7 @@ header .headerLogo, header .navMenu, .mainQuienes .sectionTitulo span, .mainQuie
   color: white;
   text-decoration: none;
   font-weight: bold;
-  font-size: 13px; }
+  font-size: 14.5px; }
   .mainHome div .section1 .sectionTitle1:hover, .mainHome div .section2 .sectionTitle2:hover {
     background-color: black;
     transform: scale(1.1);
@@ -8843,7 +8843,7 @@ header .headerLogo, header .navMenu, .mainQuienes .sectionTitulo span, .mainQuie
   color: white;
   text-decoration: none;
   font-weight: bold;
-  font-size: 13px; }
+  font-size: 14.5px; }
   .mainHome div .section1 .sectionTitle1:hover, .mainHome div .section2 .sectionTitle2:hover {
     background-color: black;
     transform: scale(1.1);
