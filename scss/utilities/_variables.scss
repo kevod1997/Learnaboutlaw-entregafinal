@@ -8,7 +8,7 @@ $color-back: linear-gradient(to left, rgb(58, 52, 52), whitesmoke);
     background-image: url(../img/columnas.jpg);
     background-size: cover;
     background-position: center;
-    height: 120vh;
+    height: fit-content;
 }
 %indexText{
     color: white;

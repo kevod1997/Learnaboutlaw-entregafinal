@@ -2,7 +2,7 @@
 /* seccion quienes somos */
 .mainQuienes{
     @extend %mainBack;
-    height: 175vh;
+    padding-bottom: 20px;
     .sectionTitulo{
         padding-top: 30px;
         text-align: center;
@@ -29,7 +29,7 @@
 }    
 @media only screen and (min-width:760px){
    .mainQuienes{
-       height: 150vh;
+       height: 200vh;
        .sectionTitulo{
            font-weight: normal;
        }
@@ -37,7 +37,7 @@
 }
 @media only screen and (min-width:1024px){
     .mainQuienes{
-        height: 105vh;
+        height: 150vh;
         .contenedorMainQuienes{
             display: grid;
             grid-template-columns: 1fr 1fr;

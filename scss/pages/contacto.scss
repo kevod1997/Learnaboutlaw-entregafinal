@@ -1,0 +1,53 @@
+@import "utilities/variables";
+/* seccion contacto*/
+main{
+    @extend %mainBack;
+    padding-bottom: 50px;
+   .mainContactoTitulo{
+    text-align: center;
+    padding-top: 30px;
+    font-size: 30px;
+    font-weight: normal;
+    padding-bottom: 30px;
+    span{
+        background-color: rgb(142, 131, 131);
+        border-radius: 5px;
+        border-bottom: 2px solid black;
+    }
+   } 
+   form{
+       height: fit-content;
+        margin-top: 10px;
+     margin-left: 100px;
+      margin-right: 100px;
+        margin-bottom: 30px;
+     background-color: rgb(142, 131, 131);
+     font-weight: normal;
+     border: 1px solid black;
+     border-radius: 10px;
+     text-align: center;
+     
+       fieldset{
+           .formTituloContacto{
+            font-weight: normal;
+            margin: 10px;
+            text-align: center;
+               .nombre{
+                margin: 5px;
+               }
+               .apellido{
+                margin: 5px;
+               }
+               .email{
+                margin: 5px;
+               }
+               .provincia{
+                margin: 5px;
+               }
+               .genero{
+                margin: 10px;
+               }
+           }
+       }
+   }
+}

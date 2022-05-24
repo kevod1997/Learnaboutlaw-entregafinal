@@ -8357,11 +8357,11 @@ header .navMenu {
   background: #e8e8e8;
   background: linear-gradient(90deg, #e8e8e8 21%, #959595 98%); }
 
-.mainHome, .mainQuienes {
+.mainHome, .mainQuienes, main, .mainSitios {
   background-image: url(../img/columnas.jpg);
   background-size: cover;
   background-position: center;
-  height: 120vh; }
+  height: fit-content; }
 
 .mainHome div .section1 .sectionTitle1, .mainHome div .section2 .sectionTitle2 {
   color: white;
@@ -8451,11 +8451,11 @@ footer {
     footer div .sectionFooter2 a .linkWhatsapp {
       border-radius: 25px; } }
 
-.mainHome, .mainQuienes {
+.mainHome, .mainQuienes, main, .mainSitios {
   background-image: url(../img/columnas.jpg);
   background-size: cover;
   background-position: center;
-  height: 120vh; }
+  height: fit-content; }
 
 .mainHome div .section1 .sectionTitle1, .mainHome div .section2 .sectionTitle2 {
   color: white;
@@ -8550,11 +8550,11 @@ footer {
           box-shadow: 2px 2px black;
           transition: 1s; } }
 
-.mainHome, .mainQuienes {
+.mainHome, .mainQuienes, main, .mainSitios {
   background-image: url(../img/columnas.jpg);
   background-size: cover;
   background-position: center;
-  height: 120vh; }
+  height: fit-content; }
 
 .mainHome div .section1 .sectionTitle1, .mainHome div .section2 .sectionTitle2 {
   color: white;
@@ -8570,7 +8570,7 @@ footer {
 
 /* seccion quienes somos */
 .mainQuienes {
-  height: 175vh; }
+  padding-bottom: 20px; }
   .mainQuienes .sectionTitulo {
     padding-top: 30px;
     text-align: center;
@@ -8594,13 +8594,13 @@ footer {
 
 @media only screen and (min-width: 760px) {
   .mainQuienes {
-    height: 150vh; }
+    height: 200vh; }
     .mainQuienes .sectionTitulo {
       font-weight: normal; } }
 
 @media only screen and (min-width: 1024px) {
   .mainQuienes {
-    height: 105vh; }
+    height: 150vh; }
     .mainQuienes .contenedorMainQuienes {
       display: grid;
       grid-template-columns: 1fr 1fr; }
@@ -8620,3 +8620,211 @@ footer {
       margin-left: 100px;
       margin-right: 100px;
       margin-bottom: 25px; } }
+
+.mainHome, .mainQuienes, main, .mainSitios {
+  background-image: url(../img/columnas.jpg);
+  background-size: cover;
+  background-position: center;
+  height: fit-content; }
+
+.mainHome div .section1 .sectionTitle1, .mainHome div .section2 .sectionTitle2 {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px; }
+  .mainHome div .section1 .sectionTitle1:hover, .mainHome div .section2 .sectionTitle2:hover {
+    background-color: black;
+    transform: scale(1.1);
+    box-shadow: 2px 2px black;
+    transition: 1s; }
+
+/* seccion publicaciones */
+.mainBack {
+  background: #e8e8e8;
+  background: linear-gradient(90deg, #e8e8e8 21%, #959595 98%);
+  height: fit-content; }
+  .mainBack .publicacion1 {
+    margin-left: 5px;
+    margin-right: 5px; }
+    .mainBack .publicacion1 .publiTitle1 {
+      padding-top: 10px;
+      text-align: center;
+      margin-bottom: 30px;
+      border-top: 1px solid black; }
+    .mainBack .publicacion1 .publiText1 .parrafoText2 {
+      font-weight: bold; }
+    .mainBack .publicacion1 .publiText1 a {
+      color: black; }
+    .mainBack .publicacion1 .publiText1 span {
+      font-weight: bold; }
+    .mainBack .publicacion1 .publiText1 .citaTexto {
+      font-style: italic;
+      font-weight: normal; }
+    .mainBack .publicacion1 .publiText1 q {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 70%; }
+    .mainBack .publicacion1 .publiText1 .imagenConstitucion {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 50%;
+      margin-bottom: 10px; }
+  .mainBack .publicacion2 {
+    margin-left: 5px;
+    margin-right: 5px; }
+    .mainBack .publicacion2 h2, .mainBack .publicacion2 .h2 {
+      border-top: 1px solid black;
+      text-align: center;
+      margin-top: 50px;
+      margin-bottom: 25px; }
+    .mainBack .publicacion2 .publiParrafo2 {
+      text-align: center;
+      font-weight: bold;
+      font-size: 14px; }
+  .mainBack .publicacion3 {
+    margin-left: 5px;
+    margin-right: 5px;
+    padding-bottom: 25px; }
+    .mainBack .publicacion3 h3, .mainBack .publicacion3 .h3 {
+      text-align: center;
+      border-top: 1px solid black;
+      margin-top: 50px;
+      margin-bottom: 25px; }
+    .mainBack .publicacion3 .publiParrafo3 {
+      text-align: center;
+      font-weight: bold;
+      font-size: 14px; }
+
+@media only screen and (min-width: 760px) {
+  .mainBack {
+    height: fit-content; } }
+
+@media only screen and (min-width: 1024px) {
+  .mainBack {
+    background: #e8e8e8;
+    background: linear-gradient(90deg, #e8e8e8 21%, #959595 98%); }
+    .mainBack .publicacion1 {
+      margin-left: 25px;
+      margin-right: 25px; }
+      .mainBack .publicacion1 .publiText1 q {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%; }
+      .mainBack .publicacion1 .publiText1 .imagenConstitucion {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 40%;
+        margin-bottom: 10px; }
+    .mainBack .publicacion2 {
+      margin-left: 25px;
+      margin-right: 25px; }
+      .mainBack .publicacion2 h2, .mainBack .publicacion2 .h2 {
+        border-top: 1px solid black;
+        text-align: center;
+        margin-top: 50px;
+        margin-bottom: 25px; }
+      .mainBack .publicacion2 p {
+        text-align: center; }
+      .mainBack .publicacion2 .publiParrafo2 {
+        text-align: center;
+        font-weight: bold;
+        font-size: 14px; }
+    .mainBack .publicacion3 {
+      margin-left: 25px;
+      margin-right: 25px;
+      padding-bottom: 25px; }
+      .mainBack .publicacion3 h3, .mainBack .publicacion3 .h3 {
+        text-align: center;
+        border-top: 1px solid black;
+        margin-top: 50px;
+        margin-bottom: 25px; }
+      .mainBack .publicacion3 p {
+        text-align: center; }
+      .mainBack .publicacion3 .publiParrafo3 {
+        text-align: center;
+        font-weight: bold;
+        font-size: 14px; } }
+
+.mainHome, .mainQuienes, main, .mainSitios {
+  background-image: url(../img/columnas.jpg);
+  background-size: cover;
+  background-position: center;
+  height: fit-content; }
+
+.mainHome div .section1 .sectionTitle1, .mainHome div .section2 .sectionTitle2 {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px; }
+  .mainHome div .section1 .sectionTitle1:hover, .mainHome div .section2 .sectionTitle2:hover {
+    background-color: black;
+    transform: scale(1.1);
+    box-shadow: 2px 2px black;
+    transition: 1s; }
+
+/* seccion contacto*/
+main {
+  padding-bottom: 50px; }
+  main .mainContactoTitulo {
+    text-align: center;
+    padding-top: 30px;
+    font-size: 30px;
+    font-weight: normal;
+    padding-bottom: 30px; }
+    main .mainContactoTitulo span {
+      background-color: #8e8383;
+      border-radius: 5px;
+      border-bottom: 2px solid black; }
+  main form {
+    height: fit-content;
+    margin-top: 10px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 30px;
+    background-color: #8e8383;
+    font-weight: normal;
+    border: 1px solid black;
+    border-radius: 10px;
+    text-align: center; }
+    main form fieldset .formTituloContacto {
+      font-weight: normal;
+      margin: 10px;
+      text-align: center; }
+      main form fieldset .formTituloContacto .nombre {
+        margin: 5px; }
+      main form fieldset .formTituloContacto .apellido {
+        margin: 5px; }
+      main form fieldset .formTituloContacto .email {
+        margin: 5px; }
+      main form fieldset .formTituloContacto .provincia {
+        margin: 5px; }
+      main form fieldset .formTituloContacto .genero {
+        margin: 10px; }
+
+.mainHome, .mainQuienes, main, .mainSitios {
+  background-image: url(../img/columnas.jpg);
+  background-size: cover;
+  background-position: center;
+  height: fit-content; }
+
+.mainHome div .section1 .sectionTitle1, .mainHome div .section2 .sectionTitle2 {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px; }
+  .mainHome div .section1 .sectionTitle1:hover, .mainHome div .section2 .sectionTitle2:hover {
+    background-color: black;
+    transform: scale(1.1);
+    box-shadow: 2px 2px black;
+    transition: 1s; }
+
+.mainSitios {
+  padding-top: 50px;
+  height: fit-content; }

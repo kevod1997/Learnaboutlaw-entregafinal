@@ -1,0 +1,145 @@
+@import "utilities/variables";
+/* seccion publicaciones */
+.mainBack{
+    background: rgb(232,232,232);
+    background: linear-gradient(90deg, rgba(232,232,232,1) 21%, rgba(149,149,149,1) 98%);
+    height: fit-content;
+    .publicacion1{
+        margin-left: 5px;
+        margin-right: 5px;
+        .publiTitle1{
+            padding-top: 10px;
+            text-align: center;
+            margin-bottom: 30px;
+            border-top: 1px solid black;
+        }
+        .publiText1{
+            .parrafoText2{
+                font-weight: bold;
+            }
+            a{
+                color: black;
+            }
+            span{
+                font-weight: bold;
+            }
+            .citaTexto{
+                font-style: italic;
+                font-weight: normal;
+            }
+            q{
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+                width: 70%;
+            }
+            .imagenConstitucion{
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+                width: 50%;
+                margin-bottom: 10px;
+            }
+        }
+    }
+    .publicacion2{
+        margin-left: 5px;
+        margin-right: 5px;
+        h2{
+            border-top: 1px solid black;
+            text-align: center; 
+            margin-top: 50px;
+            margin-bottom: 25px;
+        }
+        .publiParrafo2{
+            text-align: center;
+            font-weight: bold;
+            font-size: 14px;
+        }
+    }
+    .publicacion3{
+        margin-left: 5px;
+        margin-right: 5px;
+        padding-bottom: 25px;
+        h3{
+            text-align: center;
+            border-top: 1px solid black;
+            margin-top: 50px;
+            margin-bottom: 25px;
+        }
+        .publiParrafo3{
+            text-align: center;
+            font-weight: bold;
+            font-size: 14px;
+            
+        }
+    }
+}
+@media only screen and (min-width:760px){
+    .mainBack{
+        height: fit-content;
+        }
+}
+@media only screen and (min-width:1024px){
+    .mainBack{
+        background: rgb(232,232,232);
+        background: linear-gradient(90deg, rgba(232,232,232,1) 21%, rgba(149,149,149,1) 98%);
+        .publicacion1{
+            margin-left: 25px;
+            margin-right: 25px;
+            .publiText1{
+                q{
+                    display: block;
+                    margin-left: auto;
+                    margin-right: auto;
+                    width: 50%;
+                }
+                .imagenConstitucion{
+                    display: block;
+                    margin-left: auto;
+                    margin-right: auto;
+                    width: 40%;
+                    margin-bottom: 10px;
+                }
+            }
+        }
+        .publicacion2{
+            margin-left: 25px;
+            margin-right: 25px;
+            h2{
+                border-top: 1px solid black;
+                text-align: center; 
+                margin-top: 50px;
+                margin-bottom: 25px;
+            }
+            p{
+                text-align: center;
+            }
+            .publiParrafo2{
+                text-align: center;
+                font-weight: bold;
+                font-size: 14px;
+            }
+        }
+        .publicacion3{
+            margin-left: 25px;
+            margin-right: 25px;
+            padding-bottom: 25px;
+            h3{
+                text-align: center;
+                border-top: 1px solid black;
+                margin-top: 50px;
+                margin-bottom: 25px;
+            }
+            p{
+                text-align: center;
+            }
+            .publiParrafo3{
+                text-align: center;
+                font-weight: bold;
+                font-size: 14px;
+                
+            }
+        }
+    }
+}

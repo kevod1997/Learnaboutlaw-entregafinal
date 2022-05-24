@@ -1,0 +1,7 @@
+@import "utilities/variables";
+
+.mainSitios{
+    @extend %mainBack;
+    padding-top: 50px;
+    height:fit-content;
+    }
