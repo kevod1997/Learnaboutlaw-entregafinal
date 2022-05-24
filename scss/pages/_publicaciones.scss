@@ -1,8 +1,7 @@
 @import "utilities/variables";
 /* seccion publicaciones */
 .mainBack{
-    background: rgb(232,232,232);
-    background: linear-gradient(90deg, rgba(232,232,232,1) 21%, rgba(149,149,149,1) 98%);
+    @extend %colorBack;
     height: fit-content;
     .publicacion1{
         margin-left: 5px;
@@ -27,11 +26,14 @@
                 font-style: italic;
                 font-weight: normal;
             }
-            q{
-                display: block;
+            .citaTwitter{
                 margin-left: auto;
                 margin-right: auto;
-                width: 70%;
+                display: flex;
+                justify-content: center;
+                height: 50%;
+                
+            
             }
             .imagenConstitucion{
                 display: block;
@@ -82,18 +84,10 @@
 }
 @media only screen and (min-width:1024px){
     .mainBack{
-        background: rgb(232,232,232);
-        background: linear-gradient(90deg, rgba(232,232,232,1) 21%, rgba(149,149,149,1) 98%);
         .publicacion1{
             margin-left: 25px;
             margin-right: 25px;
             .publiText1{
-                q{
-                    display: block;
-                    margin-left: auto;
-                    margin-right: auto;
-                    width: 50%;
-                }
                 .imagenConstitucion{
                     display: block;
                     margin-left: auto;

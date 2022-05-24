@@ -11,8 +11,7 @@
         color: black;
         border-radius: 15px;
         span{
-            background: rgb(232,232,232);
-            background: linear-gradient(90deg, rgba(232,232,232,1) 21%, rgba(149,149,149,1) 98%);
+            @extend %colorBack;
             border-radius: 10px;
         }
     }
@@ -23,8 +22,8 @@
         margin-left: 100px;
         margin-right: 100px;
         margin-bottom: 25px;
-        background: rgb(232,232,232);
-        background: linear-gradient(90deg, rgba(232,232,232,1) 21%, rgba(149,149,149,1) 98%);;
+        @extend %colorBack;
+        border-radius: 5px;
     }
 }    
 @media only screen and (min-width:760px){
