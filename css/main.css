@@ -8395,7 +8395,7 @@ header .headerLogo, header .navMenu, .mainQuienes .sectionTitulo span, .mainQuie
 
 /*footer*/
 footer {
-  height: 50vh; }
+  height: fit-content; }
   footer div {
     background-color: black;
     display: grid;
@@ -8614,8 +8614,8 @@ header .headerLogo, header .navMenu, .mainQuienes .sectionTitulo span, .mainQuie
     color: black;
     font-size: 18px;
     margin-top: 25px;
-    margin-left: 100px;
-    margin-right: 100px;
+    margin-left: 50px;
+    margin-right: 50px;
     margin-bottom: 25px;
     border-radius: 5px; }
 

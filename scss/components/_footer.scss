@@ -3,7 +3,7 @@
 /*footer*/
 
 footer{
-    height: 50vh;
+    height: fit-content;
     div{
         background-color: black;
         display: grid;
@@ -92,6 +92,7 @@ footer{
 @media only screen and (min-width:1024px){
     footer{
         div{
+            
             .sectionFooter1{
                 margin-top: 150px;
             }
